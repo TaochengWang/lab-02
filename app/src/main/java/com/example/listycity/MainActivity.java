@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         addButton = findViewById(R.id.add_button);
         deleteButton = findViewById(R.id.delete_button);
 
-
         String []cities = {"Edmonton", "Vancouver"};
 
         dataList = new ArrayList<>();
