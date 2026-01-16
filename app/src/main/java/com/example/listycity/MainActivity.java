@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         deleteButton = findViewById(R.id.delete_button);
 
 
-        String []cities = {"Edmonton", "Vancouver", "Moscow", "Sydney", "Berlin", "Vienna", "Tokyo", "Beijing", "Osaka", "New Delhi"};
+        String []cities = {"Edmonton", "Vancouver"};
 
         dataList = new ArrayList<>();
         dataList.addAll(Arrays.asList(cities));
